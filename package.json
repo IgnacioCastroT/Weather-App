@@ -1,0 +1,33 @@
+{
+  "name": "project-weather-app",
+  "version": "1.0.0",
+  "description": "Bienvenido a **Weather App**. Este proyecto es un ejercicio de práctica creado principalmente para aprender a consumir y manejar **APIs RESTful** de forma asíncrona mediante JavaScript moderno (`async/await`). La fuente de datos utilizada es la API de Visual Crossing Weather.",
+  "main": "script.js",
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack",
+    "deploy": "gh-pages -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IgnacioCastroT/Weather-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/IgnacioCastroT/Weather-App/issues"
+  },
+  "homepage": "https://github.com/IgnacioCastroT/Weather-App#readme",
+  "devDependencies": {
+    "css-loader": "^7.1.4",
+    "gh-pages": "^6.3.0",
+    "html-webpack-plugin": "^5.6.7",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.107.1",
+    "webpack-cli": "^7.0.2",
+    "webpack-dev-server": "^5.2.4"
+  }
+}
